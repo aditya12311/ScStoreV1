@@ -51,15 +51,15 @@ autocomposing = false
 autorecording = false
 //----
 
-let owner = '6282293295376' // NO OWNER
-let botname = '© Abil Botz' // NAMA BOT
-let ownername = '© Abil Ganz' // NAMA OWNER
-let fake = '© Abil Botz' // FAKENYA
-let yt = 'https://youtube.com/channel/UCJPqI5eVhKPXPL2V8y6pIDA' // YT LU
-let gopay = 'http://bit.ly/qrgopay' // QRGOPAY / NO GOPAY
-let dana = '-' // QRDANA / NO DANA
-let ovo = 'http://bit.ly/qrovo' // QROVO / NO OVO
-let pulsa = '082293295376' // PULSA
+let owner = '6285936697907' // NO OWNER
+let botname = '© Zxx bot' // NAMA BOT
+let ownername = '© Zxx dev' // NAMA OWNER
+let fake = '© Zxx bot' // FAKENYA
+let yt = 'https://chat.whatsapp.com/KwuielXHrv4Jc9y9UdyLIN' // YT LU
+let gopay = '081353057687' // QRGOPAY / NO GOPAY
+let dana = '081353057687' // QRDANA / NO DANA
+let ovo = '081353057687' // QROVO / NO OVO
+let pulsa = '081353057687' // PULSA
 
 const fakeimage = fs.readFileSync ('./media/dhani.jpg')
 const fakedhani = fs.readFileSync ('./media/thumb.jpg')
@@ -468,6 +468,7 @@ menu =
 ⊛ ${prefix}jasher
 
 
+
 *( 𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨 )*
 
 ⊛ ${prefix}owner
@@ -478,12 +479,6 @@ menu =
 ⊛ ${prefix}upswvideo
 ⊛ ${prefix}upswimage
 
-*( THANKS TO )*
-=> ORTU GW
-=> ABIL BOTZ
-=> BOTZ DHANI ?
-=> ${ownername} ( OWNER BOT )
-=> ALL MY SUBSCRIBER
 _________________________________`
 teks =
 `「 ${botname} 」\n*${tanggal}*`

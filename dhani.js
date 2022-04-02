@@ -52,7 +52,7 @@ autorecording = false
 //----
 
 let owner = '6285936697907' // NO OWNER
-let botname = '© Zxx bot' // NAMA BOT
+let botname = '© Zxx' // NAMA BOT
 let ownername = '© Zxx dev' // NAMA OWNER
 let fake = '© Zxx bot' // FAKENYA
 let yt = 'https://chat.whatsapp.com/KwuielXHrv4Jc9y9UdyLIN' // YT LU
@@ -466,7 +466,7 @@ menu =
 ⊛ ${prefix}cod
 ⊛ ${prefix}sausageman
 ⊛ ${prefix}jasher
-
+⊛ ${prefix}Ber-Ber
 
 
 *( 𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨 )*
@@ -773,6 +773,25 @@ but = [
         sendButImage(from, menunya, teks, gambar, but)
 break
 
+case 'Ber-Ber':
+case 'berber':
+gambar = fs.readFileSync('./media/qr.jpg')
+menunya = `*「 Ber-Ber 」*
+
+• *All payment berber :*
+*Ovo: 081353xxxx87*
+*Gopay: 081353xxxx87*
+*Dana:081353xxxx87*
+*Qris Scan*`
+teks =
+`「 ${botname} 」\n*${tanggal}*`
+but = [
+          { buttonId: `${prefix}payment`, buttonText: { displayText: 'ᴘᴀʏᴍᴇɴᴛ' }, type: 1 },
+          { buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 }
+        ]
+        sendButImage(from, menunya, teks, gambar, but)
+break
+
 //══════════[ Fitur Owner ]══════════//
 
 case 'owner':
@@ -822,7 +841,7 @@ case 'bc':
              break
 
 case 'upswteks':
-if (!isOwner) return reply('LU BUKAN OWNER GBLOK')
+if (!isOwner) return reply('ANDA BUKAN OWNER DARI BOT INI!!')
 if (args.length < 1) return reply('Teksnya?')
 teks = body.slice(10)
 Dhani.sendMessage('status@broadcast', teks, MessageType.text)
@@ -830,7 +849,7 @@ reply(`Sukses upload status:\n${teks}`)
 break
 
 case 'upswsticker':
-if (!isOwner) return reply('LU BUKAN OWNER GBLOK')
+if (!isOwner) return reply('ANDA BUKAN OWNER DARI BOT INI!!')
 if (!isQuotedSticker) return reply('Reply stikernya!')
 if (isMedia && !mek.message.videoMessage || isQuotedSticker) {
 const encmedia = isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
@@ -841,7 +860,7 @@ reply(`Sukses upload sticker`)
 break
 
 case 'upswaudio':
-if (!isOwner) return reply('LU BUKAN OWNER GBLOK')
+if (!isOwner) return reply('ANDA BUKAN OWNER DARI BOT INI!!')
 if (!isQuotedAudio) return reply('Reply audionya!')
 if (isMedia && !mek.message.videoMessage || isQuotedAudio) {
 const encmedia = isQuotedAudio ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
@@ -852,7 +871,7 @@ reply(`Sukses upload audio`)
 break
 
 case 'upswvideo':
-if (!isOwner) return reply('LU BUKAN OWNER GBLOK')
+if (!isOwner) return reply('ANDA BUKAN OWNER DARI BOT INI!!')
 var konti = body.slice(11)
 reply(mess.wait)
 var enmediap = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
@@ -863,7 +882,7 @@ reply(`Sukses upload video:\n${konti}`)
 break
 
 case 'upswimage':
-if (!isOwner) return reply('LU BUKAN OWNER GBLOK')
+if (!isOwner) return reply('ANDA BUKAN OWNER DARI BOT INI!!')
 var teksyy = body.slice(11)
 reply(mess.wait)
 enmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo

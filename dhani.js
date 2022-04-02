@@ -796,19 +796,21 @@ break
 
 case 'Robux':
 case 'robux':
-gambar = fs.readFileSync('./media/thumb.jpg')
+gambar = fs.readFileSync('./media/qr.jpg')
 menunya = `*「 Robux List 」*
 
-*- order 200 set harga gamepass 300 robux yang akan didapatkan 200+10*
-*- order 300 set harga gamepass 450 robux yang akan didapatkan 300+15*
-*- order 400 set harga gamepass 600 robux yang akan didapatkan 400+20*
-*- order 500 set harga gamepass 750 robux yang akan didapatkan 500+25*
-*- order 600 set harga gamepass 900 robux yang akan didapatkan 600+30*
-*- order 700 set harga gamepass 1050 robux yang akan didapatkan 700+35*
-*- order 800 set harga gamepass 1200 robux yang akan didapatkan 800+40*
-*- order 900 set harga gamepass 1350 robux yang akan didapatkan 900+45*
-*- order 1000 set harga gamepass 1500 robux yang akan didapatkan 1000+50*
+*- 210= 8rb*
+*- 300+15= 16rb*
+*- 400+20= 24rb*
+*- 500+25= 32rb*
+*- 600+30= 40rb*
+*- 700+35= 48rb*
+*- 800+40= 56 rb*
+*- 900+45= 64rb*
+*- 1000+50= 72rb*
 
+*Menggunakan metod game pass*
+*Proses kerja 5 hari kurang lebih*
 
 *Harga 100 robux = 8rb*
 

@@ -467,6 +467,8 @@ menu =
 ⊛ ${prefix}sausageman
 ⊛ ${prefix}jasher
 ⊛ ${prefix}Ber-Ber
+⊛ ${prefix}robux
+
 
 
 *( 𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨 )*
@@ -783,6 +785,38 @@ menunya = `*「 Ber-Ber 」*
 *Gopay: 081353xxxx87*
 *Dana:081353xxxx87*
 *Qris Scan*`
+teks =
+`「 ${botname} 」\n*${tanggal}*`
+but = [
+          { buttonId: `${prefix}payment`, buttonText: { displayText: 'ᴘᴀʏᴍᴇɴᴛ' }, type: 1 },
+          { buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 }
+        ]
+        sendButImage(from, menunya, teks, gambar, but)
+break
+
+case 'Robux':
+case 'robux':
+gambar = fs.readFileSync('./media/thumb.jpg')
+menunya = `*「 Robux List 」*
+
+*- order 200 set harga gamepass 300 robux yang akan didapatkan 200+10*
+*- order 300 set harga gamepass 450 robux yang akan didapatkan 300+15*
+*- order 400 set harga gamepass 600 robux yang akan didapatkan 400+20*
+*- order 500 set harga gamepass 750 robux yang akan didapatkan 500+25*
+*- order 600 set harga gamepass 900 robux yang akan didapatkan 600+30*
+*- order 700 set harga gamepass 1050 robux yang akan didapatkan 700+35*
+*- order 800 set harga gamepass 1200 robux yang akan didapatkan 800+40*
+*- order 900 set harga gamepass 1350 robux yang akan didapatkan 900+45*
+*- order 1000 set harga gamepass 1500 robux yang akan didapatkan 1000+50*
+
+
+*Harga 100 robux = 8rb*
+
+• *All payment robux :*
+*Gopay: 087860948640*
+*Dana:087860948640*`
+
+
 teks =
 `「 ${botname} 」\n*${tanggal}*`
 but = [

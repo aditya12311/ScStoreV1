@@ -1,13 +1,3 @@
-// THANKSTO
-// ABIL BOTZ
-// DHANI BOTZ
-// ALL MY SUBSCRIBER
-// UWNXEIGFLALWJDBABDKE
-// JANGAN SOK DEWASA KALAU DIRILU AJA BLUM BISA LU CONTROL
-//--
-// CAPEK ? ISTIRAHAT LAH
-// JANGAN LUPA NAFAS YOOO
-//________________________________________________________________________________________________________________________
 
 const
 	{
